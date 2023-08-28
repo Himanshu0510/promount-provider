@@ -1,0 +1,52 @@
+{
+  "name": "@Himanshu0510/promount-provider",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Himanshu Chauhan",
+  "license": "",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.6.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Himanshu0510/promount-provider.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
